@@ -1,13 +1,14 @@
-import logo from './logo.svg';
+import HeartsList from './components/HeartsList';
+import Header from './components/Header';
 import './App.css';
 
-function App(props) {
-  console.log(props);
+function App() {
   return (
-    <div className="App">
-      {props.msg}
-    </div>
-  );
+    <>
+      <Header />
+      <HeartsList />
+    </>
+  )
 }
 
 export default App;
